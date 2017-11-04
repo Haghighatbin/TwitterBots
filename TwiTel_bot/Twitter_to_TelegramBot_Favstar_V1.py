@@ -13,10 +13,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 #Twitter Credentials
-consumer_key='TOMgP9u0C0rd7zo51qLbmszbz'
-consumer_secret='VgzJC60lPcwqBK69MnY3Sb1Rx7ypK0Edi8MwReoj5rym3p6FIz'
-access_token='780211428061872128-f9DQB1tv4yC3njpjy0Z8vaf4Efh9Duu'
-access_secret='8cbSymWatNbrqjZhMEqft1lY0vjdR2kTXlaK8qwGFYsyX'
+consumer_key='xxxx'
+consumer_secret='xxxx'
+access_token='xxx-xxxx'
+access_secret='xxxx'
 
 api = TwitterAPI(consumer_key,
                  consumer_secret,
@@ -26,7 +26,7 @@ api = TwitterAPI(consumer_key,
 #Required favstar and bot paramters
 keyword_to_search = ('[]')
 counts = 250 # number of tweets to be assessed
-default_fav = 100 # favs counts to be a favstar
+default_fav = 100 # fav counts to be a favstar
 fav_limit = 0
 result_alg = 'recent'
 id_list = []
@@ -181,7 +181,7 @@ def twitel(bot, job):
 
 #The main module, the telegram token will be implemented here; current and future commands will be managed here as well
 def main():
-    updater = Updater("325108031:AAEtMYjMumRjsQJn1_6jJwUOqvaEeHzePlw")
+    updater = Updater("xxxx:xxxx")
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
 
