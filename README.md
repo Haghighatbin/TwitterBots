@@ -1,8 +1,8 @@
 # TwiTel
 
-A Python bot which it picks the favstar tweets (based on the number of the Favs and retweets) and transfers to a telegram channel.
+A Twitter bot which receives favstar tweets (based on the number of the Favs and Retweets) and transfers them to a specified telegram channel.
 
 # Who To Unfollow
-A Python bot based on Twitter API.
+A Twitter bot based on Twitter API.
 
 *For more information please refer to the comments within the main codes.
